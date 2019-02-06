@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.weather {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.data{
+  margin-top:20px;
+}
+
+.active{
+  color:red;
+}
+
+.temperature {
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.coordinates, .city {
+    font-size: 22px;
+    margin: 5px 0 5px 0;
+}
+
+.toggleTemp {
+    width: 225px;
+    margin: -25px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.toggleTemp div{
+  cursor:pointer;
+}
